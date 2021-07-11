@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# SOURCE_DIR=/home/robert/git/lenovo-fan-control
 SOURCE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 while :
