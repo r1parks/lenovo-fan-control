@@ -90,4 +90,4 @@ fi
 systemctl daemon-reload
 systemctl enable "$SERVICE_FILE"
 systemctl start "$SERVICE_FILE"
-service "$SERVICE_NAME" status
+systemctl status "$SERVICE_FILE"
